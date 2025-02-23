@@ -171,4 +171,10 @@ cython_debug/
 .pypirc
 
 mongodb-macos*
+mongodb-win32*
+mongosh-*
 data
+
+*.zip
+*.lnk
+*.log

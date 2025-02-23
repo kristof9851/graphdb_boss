@@ -1,1 +1,2 @@
-# inventory
+# GraphDB Boss
+
