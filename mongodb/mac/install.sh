@@ -47,6 +47,9 @@ fi
 
 echo "mongod installed successfully."
 
+# Create data dir
+mkdir -p ./data
+
 # Cleanup the tgz file
 rm "$MONGODB_TGZ_FILENAME"
 
