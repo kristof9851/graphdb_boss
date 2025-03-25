@@ -11,7 +11,7 @@ set "MONGO_SHELL_ZIP_URL=https://downloads.mongodb.com/compass/mongosh-2.4.0-win
 set "MONGO_SHELL_ZIP_FILENAME=mongosh-2.4.0-win32-x64.zip"
 set "MONGO_SHELL_BINARY=mongosh.exe"
 set "MONGO_SHELL_EXTRACT_DIR=mongosh-2.4.0-win32-x64"
-set "MONGO_SHELL_SHORTCUT=.\mongo.lnk"
+set "MONGO_SHELL_SHORTCUT=.\mongosh.lnk"
 
 
 echo Checking if MongoDB is already downloaded...

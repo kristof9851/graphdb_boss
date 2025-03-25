@@ -131,6 +131,14 @@
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    {% if javascript_plugin_files and javascript_plugin_files | length > 0 %}
+        {% for filepath in javascript_plugin_files %}
+    <!-- {{ filepath }} -->
+    <script defer>
+{{ get_file_contents(filepath) | safe }}
+    </script>
+        {% endfor %}
+    {% endif %}
     <script>
         $(document).ready(function () {
             const data = [
